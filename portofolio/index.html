@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Beranda</title>
+    <!-- Menghubungkan CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html" class="brand">Siswa<span>.Dev</span></a>
+            <ul class="nav-links">
+                <!-- Perhatikan href sekarang langsung menuju ke file HTML -->
+                <li><a href="index.html" class="active">🏠 Beranda</a></li>
+                <li><a href="about.html">👤 Tentang Saya</a></li>
+                <li><a href="project.html">💡 Proyek</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <article class="hero">
+                <div class="hero-text">
+                    <h1>Halo, Saya <br><span>Radhitya Pea</span></h1>
+                    <p>Siswa Kelas XII - Peminatan Rekayasa Perangkat Lunak / Informatika. <br>Bersemangat membangun teknologi yang bermanfaat dan terukur.</p>
+                    <a href="project.html" class="btn">Lihat Proyek Saya</a>
+                </div>
+                <div class="hero-img">
+                    <div class="img-placeholder-circle">
+                        <!-- Mengambil foto dari folder images -->
+                        <img src="assets/img/pea1.jpg.jpeg" alt="Foto Profil" onerror="this.style.display='none'; this.parentNode.innerHTML='[images/profile.jpg]';">
+                    </div>
+                </div>
+            </article>
+
+            <article class="skills-summary">
+                <h2 class="section-title">Ringkasan Keahlian</h2>
+                <div class="skills-grid">
+                    <div class="skill-card"><h3>🌐 HTML5 & CSS3</h3></div>
+                    <div class="skill-card"><h3>🖥️ Jaringan Dasar</h3></div>
+                    <div class="skill-card"><h3>⚙️ Problem Solving</h3></div>
+                    <div class="skill-card"><h3>💻 Pemrograman C++</h3></div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Portofolio Digital - Radhitya Pea.</p>
+    </footer>
+
+    <!-- Menghubungkan JavaScript -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
